@@ -14,6 +14,11 @@ app.use(bodyParser.json());
 // Routes
 app.use("/api", queryRoutes);
 
+app.get('/', (req, res) => {
+    res.send('Welcome to the Gen AI Analytics Query API');
+});
+
+
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 });
