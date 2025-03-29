@@ -1,4 +1,4 @@
-# Gen AI Analytics Query API
+ # Gen AI Analytics Query API
 
 This project is a lightweight backend service simulating a simplified version of a Gen AI Analytics tool. It allows non-technical users to ask complex business questions in natural language and receive structured insights.
 
@@ -100,11 +100,7 @@ Authorization: Bearer secret-token
   ```
 
 ## Deployment (Render)
-1. Push your code to GitHub.
-2. Create a new **Web Service** in [Render](https://assignmentg.onrender.com/).
-3. Connect your GitHub repository.
-4. Set the **start command**: `node server.js`
-5. Deploy and get your public API URL.
+ [Render](https://assignmentg.onrender.com/)
 
 ## Testing the API
 Use tools like **Postman**, **cURL**, or **Thunder Client** to send requests. Example cURL request:
